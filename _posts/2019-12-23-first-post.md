@@ -1,7 +1,7 @@
 ---
 title: "Today I Learn: Day-01"
 date: 2019-12-23 08:26:28 -0400
-categories: jekyll update
+categories: TIL
 ---
 미술계 인사 데이터 점검
 
