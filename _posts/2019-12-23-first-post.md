@@ -5,6 +5,6 @@ categories: jekyll update
 ---
 미술계 인사 데이터 점검
 
-TODO:
--슬리퍼 사기
--연필꽂이 사기
+**TODO:**<br>
+-슬리퍼 사기<br>
+-연필꽂이 사기<br>
