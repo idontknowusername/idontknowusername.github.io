@@ -1,0 +1,14 @@
+---
+title: "Today I Learn: Day-03"
+date: 2019-12-26 09:00:00 -0400
+categories: TIL
+---
+**출근시간:** 08:50<br>
+
+**업무내용:**
+---
++ 국립현대미술관에서 제공하는 API 자동 수집 프로그램 작성
+  + 사용언어 PYTHON: requests와 beautiful soup4 모듈
+
+**TODO:**
+---
