@@ -6,7 +6,6 @@ tags: [ 해시 ]
 ---
 
 전화번호 목록: https://programmers.co.kr/learn/courses/30/lessons/42579
-O(2<sup>n</sup>)
 
 접근방법
 --------
@@ -36,14 +35,18 @@ for i in range(len(genres)):
             break
 array.sort(key=lambda total:total[1], reverse = True)
 ```
-(정렬한 이미지)
+![정렬1](../img/problem4/1.png)
 
 하지만 여기까지 만들어진 배열로는 최초의 인덱스(고유번호)를 추적할 수 없기 때문에 고유번호를 추가해서
 배열을 바꾼다. 상당히 억지로 만든 느낌이 없지않아 있지만 지금까지 배열을 정리한다면
 > array 배열: [[장르, 총 재생횟수,[[재생횟수, 고유번호],[재생횟수, 고유번호],[재생횟수, 고유번호]]], ...]
 
+![정렬2](../img/problem4/2.png)
 이런식으로 4차원 배열까지 들어가게 된다...~~미친놈~~<br>
 사실상 배열을 가지고 일종의 데이터그램을 만든것이고 이 배열의 키 값을 조건에 맞춰 적절히 정렬하면 순서대로 인덱스 번호를 출력시키면 된다.
+<br>
+<br>
+좀 더 깔끔하게 문제를 풀어보고 싶었지만, 현재 코드를 조금 더 깔끔하게 정리하는 방법은 배열을 분리해서 2차원이나 3차원까지 축소 시키는 정도인거 같다...
 
 전체 소스코드
 ------
@@ -70,6 +73,7 @@ def solution(genres, plays):
     
     # 각 인덱스 번호 내림차순 정렬
     for i in range(len(array)):
+        # 재생횟수가 같다면 고유번호가 낮은것부터
         array[i][2].sort(reverse = True, key=lambda x:(x[0],-x[1]))
     
     for i in range(len(array)):
