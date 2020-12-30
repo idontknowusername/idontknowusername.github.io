@@ -2,7 +2,7 @@
 title: "다시 시작하는 코딩: Problem-05"
 date: 2020-12-28 16:08:54 -0400
 categories: [ 프로그래머스 ]
-tags: [ 해시 ]
+tags: [ 카카오 ]
 ---
 
 [2018 카카오]n진수 게임: https://programmers.co.kr/learn/courses/30/lessons/17687

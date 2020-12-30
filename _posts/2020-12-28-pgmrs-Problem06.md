@@ -2,7 +2,7 @@
 title: "다시 시작하는 코딩: Problem-06"
 date: 2020-12-28 16:54:41 -0400
 categories: [ 프로그래머스 ]
-tags: [ 해시 ]
+tags: [ 카카오 ]
 ---
 
 [2018 카카오]비밀지도: https://programmers.co.kr/learn/courses/30/lessons/17681
