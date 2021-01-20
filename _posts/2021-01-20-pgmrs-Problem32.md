@@ -36,6 +36,7 @@ tags: [ 카카오 ]
 |"xababcdcdababcdcd"|17|
 
 > 입출력 예에 대한 설명
+
 ```
 입출력 예 #1
 
